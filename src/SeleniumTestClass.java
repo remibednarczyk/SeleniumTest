@@ -24,15 +24,15 @@ public class SeleniumTestClass {
 
     @Test
     public void test() {
-    //    driver.get(baseUrl);
-    //    driver.findElement(By.id("lst-ib"));
-    //    System.out.println("Clear!");
-    //    driver.findElement(By.id("lst-ib")).sendKeys("testing google like a pro");
-    //    System.out.println("String sent");
-    //    driver.findElement(By.name("btnK")).click();
-    //    System.out.println("Proceeding");
-    //    String currentUrl = driver.getCurrentUrl();
-    //    System.out.println("Current URL is: " + currentUrl);
+        driver.get(baseUrl);
+        driver.findElement(By.id("lst-ib"));
+        System.out.println("Clear!");
+        driver.findElement(By.id("lst-ib")).sendKeys("testing google like a pro");
+        System.out.println("String sent");
+        driver.findElement(By.name("btnK")).click();
+        System.out.println("Proceeding");
+        String currentUrl = driver.getCurrentUrl();
+        System.out.println("Current URL is: " + currentUrl);
 
     }
 
